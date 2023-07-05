@@ -18,4 +18,31 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Contenido\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Imagen\alex-hddife-6wWiZlA2n0Q-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\andreea-chidu-FPV2_FbNHoE-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\brian-lawson-jRztw-pVdyk-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\christian-bolt-VW5VjskNXZ8-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\christian-bolt-WhnbNX5yeJo-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\diego-vedita-PW1EOs9R-Xw-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\engin-akyurt-jaZoffxg1yc-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\faith-yarn-jX2cntCbrAo-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\florencia-simonini-PDZAMYvduVk-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\kai-gabriel-2s3GhhJz2uY-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\kevin-gil-musngi-eCikWiyY6IY-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\laura-chouette-LXHyNufB8Ds-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\laura-chouette-q4Wrsho-t2E-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\Men.jpeg" />
+    <None Include="wwwroot\Imagen\mohamad-javad-barakouhi-rJvs1om1G0o-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\mohammad-faruque-0ZYPu-nLOwU-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\patrik-velich-v9eKhg8YaOA-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\raoul-croes-q3NX2NbbYmI-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\suhendro-purnomo-f0oLkvrnVOo-unsplash.jpeg" />
+    <None Include="wwwroot\Imagen\uji-kanggo-gumilang-sMn0sxR8v2E-unsplash.jpeg" />
+  </ItemGroup>
+
 </Project>

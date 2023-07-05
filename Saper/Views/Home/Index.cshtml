@@ -1,8 +1,57 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<body>
+  <header class="encabezado">
+    <nav>
+      <ul class="Opciones" >
+        <li><a href="#">Mujer</a></li>
+        <li><a href="#">Hombre</a></li>
+        <li><a href="#">Niños</a></li>
+        <li><a href="#">Ofertas</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+  <main>
+    <section class="hero">
+      <h1>¡Nueva colección!</h1>
+      <p>Descubre las últimas tendencias de moda para esta temporada.</p>
+      <a href="#" class="btn">Explorar</a>
+    </section>
+
+    <section class="categories">
+      <div class="category">
+        <img src="~/Imagen/Mujer.jpeg" alt="Mujer" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h3>Mujer</h3>
+      </div>
+      <div class="category">
+        <img src="~/Imagen/Men.jpeg" alt="Hombre" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h3>Hombre</h3>
+      </div>
+      <div class="category">
+        <img src="~/Imagen/Niños.jpg" alt="Niños" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h3>Niños</h3>
+      </div>
+    </section>
+
+    <section class="featured-products">
+      <h2>Productos destacados</h2>
+      <div class="product">
+        <img src="~/Imagen/Blusa.jpeg" alt="Blusa" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h4>Blusa</h4>
+        <p>La blusa que te presentamos es una prenda elegante y versátil para complementar tu guardarropa.</p>
+      </div>
+      <div class="product">
+        <img src="~/Imagen/tshirt.jpeg" alt="tshirt" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h4>Tshirt</h4>
+        <p> Confeccionada con algodón suave y de alta calidad, ofrece una comodidad excepcional.</p>
+      </div>
+      <div class="product">
+        <img src="~/Imagen/Abrigo.jpeg" alt="abrigo" class="imagen-reducida" style="width: 200px;height: auto;">
+        <h4>Abrigo</h4>
+        <p>Este abrigo es una prenda elegante y funcional para mantenerte abrigado durante los meses más fríos. </p>
+      </div>
+    </section>
+  </main>
+  </body>
