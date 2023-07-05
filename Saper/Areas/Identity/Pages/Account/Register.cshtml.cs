@@ -194,7 +194,7 @@ namespace Saper.Areas.Identity.Pages.Account
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return (UsuariosApp)Activator.CreateInstance<IdentityUser>();
             }
             catch
             {
