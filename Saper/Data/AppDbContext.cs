@@ -11,5 +11,7 @@ namespace Saper.Data
         }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<UsuariosApp> usuariosApps { get; set; }
     }
 }
